@@ -419,6 +419,13 @@
 		top: 930px;
 		overflow: visible;
 	}
+	a {
+		color: white;
+		transition: all .5s linear;
+	}
+	a:hover {
+		color: grey;
+	}
 </style>
 <script id="applicationScript">
 ///////////////////////////////////////
@@ -3280,21 +3287,21 @@ window.application = new Application();
 		<span>Level Designer II Environment Artist</span>
 	</div>
 	<div onclick="application.goToTargetView(event)" id="Home">
-		<span>Home</span>
+		<a>Home</a>
 	</div>
 	<div onclick="application.goToTargetView(event)" id="Portfolio">
-		<span>Portfolio</span>
+		<a>Portfolio</a>
 	</div>
 	<div id="Contact_r">
 		<span>Contact</span>
 	</div>
 	<div onclick="application.goToTargetView(event)" id="About_Me">
-		<span>About Me</span>
+		<a>About Me</a>
 	</div>
 	<img id="logodesign3" src="logodesign3.png" srcset="logodesign3.png 1x, logodesign3@2x.png 2x">
 		
 	<div onclick="application.goToTargetView(event)" id="Blog">
-		<span>Blog</span>
+		<a>Blog</a>
 	</div>
   <div id="Jackson_Winn_vr">
 		<span>Jackson Winn</span>
@@ -3341,15 +3348,15 @@ window.application = new Application();
 	<div id="Content">
 		<span>Content</span>
 	</div>
-	<img id="linkedin-3-128" src="linkedin-3-128.png" srcset="linkedin-3-128.png 1x, linkedin-3-128@2x.png 2x">
+	<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jackson-winn/"><img id="linkedin-3-128" src="linkedin-3-128.png" srcset="linkedin-3-128.png 1x, linkedin-3-128@2x.png 2x"></a>
 		
-	<img id="youtube-128" src="youtube-128.png" srcset="youtube-128.png 1x, youtube-128@2x.png 2x">
+	<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCFdnhTaTVXrOigBMq0IENrw"><img id="youtube-128" src="youtube-128.png" srcset="youtube-128.png 1x, youtube-128@2x.png 2x"></a>
 		
-	<img id="email-128" src="email-128.png" srcset="email-128.png 1x, email-128@2x.png 2x">
+	<img onclick="application.goToTargetView(event)" id="email-128" src="email-128.png" srcset="email-128.png 1x, email-128@2x.png 2x">
 		
-	<img id="facebook-like-128" src="facebook-like-128.png" srcset="facebook-like-128.png 1x, facebook-like-128@2x.png 2x">
+	<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/jackson.winn.94/"><img id="facebook-like-128" src="facebook-like-128.png" srcset="facebook-like-128.png 1x, facebook-like-128@2x.png 2x"></a>
 		
-	<img id="artstation" src="artstation.png" srcset="artstation.png 1x, artstation@2x.png 2x">
+	<a target="_blank" rel="noopener noreferrer" href="https://www.artstation.com/gibb"><img id="artstation" src="artstation.png" srcset="artstation.png 1x, artstation@2x.png 2x"></a>
 		
 </div>
 </body>
