@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="https://i.imgur.com/tkZATZu.png" rel="icon" type="image/x-icon" />
+	<link href="https://i.imgur.com/Z0OtmA1.png" rel="icon" type="image/x-icon" />
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -183,7 +183,7 @@
 	}
 	#About_Me_s {
 		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		left: 1200px;
+		left: 1092px;
 		top: 82px;
 		position: absolute;
 		overflow: visible;
@@ -206,7 +206,7 @@
 	}
 	#Blog {
 		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-		left: 1328px;
+		left: 1225px;
 		top: 82px;
 		position: absolute;
 		overflow: visible;
@@ -308,7 +308,7 @@
 		overflow: visible;
 		--web-animation: fadein 0.3s ease-out;
 		--web-action-type: page;
-		--web-action-target: Contact.html;
+		--web-action-target: About_Me.html;
 		cursor: pointer;
 	}
 	#facebook-like-128 {
@@ -573,6 +573,8 @@
 	a {
 		color: white;
 		transition: all .1s linear;
+		text-decoration: none;
+
 	}
 	a:hover {
 		color: grey;
@@ -3435,7 +3437,7 @@ window.application = new Application();
 		<span>Jackson Winn</span>
 	</div>
 	<div id="Level_Designer_II_Environment_">
-		<span>Level Designer II Environment Artist</span>
+		<span>Level Artist</span>
 	</div>
 	<div onclick="application.goToTargetView(event)" id="Home">
 		<a>Home</a>
@@ -3443,16 +3445,14 @@ window.application = new Application();
 	<div onclick="application.goToTargetView(event)" id="Portfolio">
 		<a>Portfolio</a>
 	</div>
-	<div onclick="application.goToTargetView(event)" id="Contact">
-		<a>Contact</a>
-	</div>
+
 	<div id="About_Me_s">
-		<a>About Me</a>
+		<span>About Me</>
 	</div>
 	<img id="logodesign3" src="logodesign3.png" srcset="logodesign3.png 1x, logodesign3@2x.png 2x">
 		
-	<div onclick="application.goToTargetView(event)" id="Blog">
-		<a>Blog</a>
+	<div id="Blog">
+		<a target="_blank" rel="noopener norefferer" href="https://www.artstation.com/gibb/blog">Blog</a>
 	</div>
 	<div id="Jackson_Winn_vr">
 		<span>Jackson Winn</span>
